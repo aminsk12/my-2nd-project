@@ -1,2 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
 
+}
+/* ------------------------------nav start-----------------------------------*/
+.logo{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+.rad{
+    color: red;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 3, 70);
+    color: white;
+    align-items: center;
 
+}
+.mens{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin: 13px;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.item:hover{
+    color: red;
+    background-color: white;
+    border-radius: 10%;
+}
+/* ------------------------------nav end-----------------------------------*/
+
+.baner-img{
+    width: 400px;
+}
+.baner-contener{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    background-image: url("background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+}
+.hading1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.descroption{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.btn{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: red;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 10px;
+    border-style: none; 
+    text-decoration: none;
+}
+.btn:hover{
+    color: red;
+    background-color: white;
+
+}
